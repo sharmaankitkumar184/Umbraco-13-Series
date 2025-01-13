@@ -4,6 +4,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <Content Include="umbraco\Logs\UmbracoTraceLog.TXCHD-LAP-029.20250103.json" />
+    <Content Include="umbraco\Logs\UmbracoTraceLog.TXCHD-LAP-029.20250106.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="umbraco\Data\Umbraco.mdf" />
+    <None Include="umbraco\Data\Umbraco_log.ldf" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Umbraco.Cms" Version="13.5.2" />
